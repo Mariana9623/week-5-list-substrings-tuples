@@ -50,19 +50,20 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+lumbers = luckyNumbers + friends
 ###### print the new list out
-#print(newList2)
+print(lumbers)
 ###### print out the first item in the list
-
+print (lumbers[1])
 ###### remove the last item of the new list
-
+lumbers.pop()
 ###### print the new list out without the last item
-
+print(lumbers)
 ###### add three more items to the end of the list
-
+lumbers.append("something")
+lumbers.append("apples")
 ###### print the last item in the new list
-
+print(lumbers)
 ###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
