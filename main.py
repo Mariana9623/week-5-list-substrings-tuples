@@ -10,14 +10,25 @@
  #print(computer[5])
 
 # Find and display the index of the last occurrence of the word "practice" in the following sentence:
-newSentence = "In theory, theory and practice are the same. In practice, they are not."
-print(newSentence.rindex("practice"))
+#newSentence = "In theory, theory and practice are the same. In practice, they are not."
+#print(newSentence.rindex("practice"))
 
 ###############################################Review############################################################
 #####################################challenge 1################################################################
-# Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-#my_list = ["bay","ddaa", 34, 56]
+# Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc
+my_list = ["bay","ddaa", 34, 56]
+#append() adds to the end of the list
+my_list.append("jewelry")
+print(my_list)
+#.pop() rempoves from the end 
+my_list.pop()
+print(my_list)
+my_list.remove("ddaa")
+#removes an iteam at a certain index
+print(my_list)
+my_list.insert(3,"bobba bobba")
 
+print(my_list)
 
 # Add the element "motorcycle" to the following list of means of transportation:
 
